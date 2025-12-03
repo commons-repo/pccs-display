@@ -3,22 +3,113 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project PC</title>
-  <link rel="stylesheet" href="style.css">
+  <title>002-research</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 700px;
+      padding: 50px 40px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      color: #555;
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    
+    .link-box {
+      background: #f8f9fa;
+      border-left: 4px solid #667eea;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 5px;
+    }
+    
+    .link-box p {
+      margin-bottom: 10px;
+      text-align: left;
+    }
+    
+    a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+      word-break: break-all;
+    }
+    
+    a:hover {
+      color: #764ba2;
+      text-decoration: underline;
+    }
+    
+    .signature {
+      margin-top: 40px;
+      font-style: italic;
+      color: #666;
+      font-size: 1.05em;
+    }
+    
+    .note {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 5px;
+      font-size: 0.95em;
+    }
+  </style>
 </head>
 <body>
-  <div class="slider-container">
-    <button class="nav-button" id="prev">&#10094;</button>
-
-    <div class="slide" id="slide">
-      <p id="case-title">Case 1</p>
-      <img id="case-image" src="images/Case 1.jpg" alt="Case 1">
-      <p id="case-description">This is a description of Case 1.</p>
+  <div class="container">
+    <h1>Thank You for Your Interest!</h1>
+    
+    <p>I appreciate your interest in my work on <strong>An Open-Source CAD Framework Based on Point-Cloud Generation and Script-Based Rendering</strong>!</p>
+    
+    <p>For your information, I have launched a new portal with enhanced features and better organization of the developed systems, functions, and related documents.</p>
+    
+    <div class="link-box">
+      <p><strong>🌐 Main Portal:</strong></p>
+      <p><a href="https://commons-repo.github.io/002-research/" target="_blank">https://commons-repo.github.io/002-research/</a></p>
+      
+      <p style="margin-top: 20px;"><strong>📋 Example Cases:</strong></p>
+      <p><a href="https://commons-repo.github.io/002-research/example-cases.html" target="_blank">https://commons-repo.github.io/002-research/example-cases.html</a></p>
     </div>
-
-    <button class="nav-button" id="next">&#10095;</button>
+    
+    <div class="note">
+      <p><strong>Note:</strong> The example cases link can also be found in the "Documentation" section of the main portal, along with other relevant documents.</p>
+    </div>
+    
+    <div class="signature">
+      <p>Sincerely,</p>
+      <p><strong>Angkush Kumar Ghosh</strong></p>
+      <p><a href="https://ghosh-ak.github.io/site/" target="_blank">https://ghosh-ak.github.io/site/</a></p>
+    </div>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
